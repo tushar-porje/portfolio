@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+    margin: 2em 0;
+}
+
+#home {
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#about, #projects, #contact {
+    background: #e4e4e4;
+    margin: 0;
+    padding: 2em;
+}
+
+.project {
+    background: #fff;
+    padding: 1em;
+    margin: 1em 0;
+    border: 1px solid #ccc;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1em;
+}
+
+form input, form textarea, form button {
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
